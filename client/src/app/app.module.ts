@@ -1,21 +1,29 @@
-import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
+import { ListsComponent } from './lists/lists.component';
+import { MemberDetailComponent } from './members/member-detail/member-detail.component';
+import { MemberListComponent } from './members/member-list/member-list.component';
+import { MessasgesComponent } from './messasges/messasges.component';
+import { NavComponent } from './nav/nav.component';
 import { RegisterComponent } from './register/register.component';
+import { SharedModule } from './_modules/shared.module';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
     HomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    MemberListComponent,
+    MemberDetailComponent,
+    ListsComponent,
+    MessasgesComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +31,7 @@ import { RegisterComponent } from './register/register.component';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    BsDropdownModule.forRoot()
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]

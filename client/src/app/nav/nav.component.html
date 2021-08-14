@@ -19,6 +19,12 @@
              routerLink="/messages"
              routerLinkActive='active'>Messenges</a>
         </li>
+        <li *appHasRole='["Admin", "Moderator"]'
+            class="nav-item">
+          <a class="nav-link"
+             routerLink="/admin"
+             routerLinkActive='active'>Admin</a>
+        </li>
       </ng-container>
       <li class="nav-item">
         <a class="nav-link"
@@ -32,7 +38,7 @@
       <img src="{{user.photoUrl || './assets/user.png'}}"
            alt="{{user.username}}">
       <a class="dropdown-toggle text-light ml-2"
-         dropdownToggle>Welcome {{user.knownAs | titlecase}}</a>
+         dropdownToggle>Welcome {{user.knownAs || user.username | titlecase}}</a>
       <div class="dropdown-menu mt-3"
            *dropdownMenu>
         <a routerLink='/member/edit'

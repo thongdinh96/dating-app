@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210813150032_IdentityAdded")]
+    [Migration("20210815055219_IdentityAdded")]
     partial class IdentityAdded
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -323,15 +323,9 @@ namespace API.Data.Migrations
 
             modelBuilder.Entity("API.Entities.AppUserRole", b =>
                 {
-                    b.HasOne("API.Entities.AppRole", null)
-                        .WithMany()
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("API.Entities.AppRole", "Role")
                         .WithMany("UserRoles")
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

@@ -1,5 +1,4 @@
-[
-    {
+[{
         "UserName": "Anna",
         "Gender": "female",
         "DateOfBirth": "1992-01-10",
@@ -11,12 +10,10 @@
         "Interests": "Consectetur nulla incididunt occaecat minim.",
         "City": "Hasty",
         "Country": "Myanmar",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/41.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/women/41.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Abigail",
@@ -30,12 +27,10 @@
         "Interests": "Lorem do cupidatat Lorem et enim sit deserunt aliqua sit adipisicing aliquip consequat fugiat ad.",
         "City": "Fedora",
         "Country": "South Africa",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/85.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/women/85.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Maggie",
@@ -49,12 +44,10 @@
         "Interests": "Nostrud esse cupidatat ea et aliquip tempor esse eiusmod aliquip fugiat.",
         "City": "Imperial",
         "Country": "Suriname",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/24.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/women/24.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Joanne",
@@ -68,12 +61,10 @@
         "Interests": "Officia nulla minim anim eiusmod consequat fugiat occaecat minim qui deserunt sint ea laborum commodo.",
         "City": "Crawfordsville",
         "Country": "Pakistan",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/women/72.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/women/72.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Bailey",
@@ -87,12 +78,10 @@
         "Interests": "Adipisicing in mollit nisi Lorem aliquip ex consectetur exercitation aliqua non ut nulla ut.",
         "City": "Efland",
         "Country": "New Zealand",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/45.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/men/45.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Hardin",
@@ -106,12 +95,10 @@
         "Interests": "Aliqua quis ea aliquip aute.",
         "City": "Bayview",
         "Country": "Hungary",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/51.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/men/51.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Salas",
@@ -125,12 +112,10 @@
         "Interests": "Adipisicing id ad proident et anim velit nostrud id anim ipsum eiusmod sint enim.",
         "City": "Riceville",
         "Country": "Bulgaria",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/8.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/men/8.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Holcomb",
@@ -144,12 +129,10 @@
         "Interests": "Sunt Lorem culpa est eu reprehenderit id eu.",
         "City": "Toftrees",
         "Country": "Guadeloupe",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/10.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/men/10.jpg",
+            "IsMain": true
+        }]
     },
     {
         "UserName": "Mejia",
@@ -163,11 +146,9 @@
         "Interests": "Sit enim culpa officia ex voluptate.",
         "City": "Chicopee",
         "Country": "Mozambique",
-        "Photos": [
-            {
-                "Url": "https://randomuser.me/api/portraits/men/41.jpg",
-                "IsMain": true
-            }
-        ]
+        "Photos": [{
+            "Url": "https://randomuser.me/api/portraits/men/41.jpg",
+            "IsMain": true
+        }]
     }
 ]
